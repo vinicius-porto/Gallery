@@ -1,0 +1,129 @@
+h1 {
+  padding: 2.9rem;
+  font-family: "Poppins", sans-serif; 
+  color: black;
+}
+.container{
+     display: flex; 
+     justify-content: center;
+}
+
+.container-gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-1 {
+  width: 20rem;
+  height: 13rem;
+  background-image: url(../img/imagesource.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0.2rem; 
+  border-radius: 0.2rem;
+  border: 2px solid white;
+}
+
+.gallery-2 {
+  width: 20rem;
+  height: 13rem;
+  background-image: url(../img/36916352320_e581b2683b_h.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0.2rem;
+  border-radius: 0.2rem;
+  border: 2px solid white;
+}
+
+.gallery-3 {
+  width: 20rem;
+  height: 13rem;
+  background-image: url(../img/WRX_Portugal_2016_009.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0.2rem;
+  border-radius: 0.2rem;
+  border: 2px solid white;
+}
+
+.gallery-4 {
+  width: 20rem;
+  height: 13rem;
+  background-image: url("../img/HRD_0790-display.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0.2rem;
+  border-radius: 0.2rem; 
+  border: 2px solid white;
+}
+
+.gallery-5 {
+  width: 20rem;
+  height: 13rem;
+  background-image: url(../img/fordfocusrsrx-01.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0.2rem;
+  border-radius: 0.2rem; 
+  border: 2px solid white;
+}
+
+.container-modal-gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-gallery-picture-1 {
+  background-image: url("../img/imagesource.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 45rem;
+  height: 20rem;
+  position: relative;
+  bottom: 0.5rem;
+  display: none;
+}
+
+.modal-gallery-picture-2 {
+  background-image: url("../img/36916352320_e581b2683b_h.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 45rem;
+  height: 20rem;
+  position: relative;
+  bottom: 0.5rem;
+  display: none;
+}
+
+.modal-gallery-picture-3 {
+  background-image: url("../img/WRX_Portugal_2016_009.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 45rem;
+  height: 20rem;
+  position: relative;
+  bottom: 0.5rem;
+  display: none;
+}
+
+.modal-gallery-picture-4 {
+  background-image: url("../img/HRD_0790-display.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 45rem;
+  height: 20rem;
+  position: relative;
+  bottom: 0.5rem;
+  display: none;
+}
+
+.modal-gallery-picture-5 {
+  background-image: url("../img/fordfocusrsrx-01.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 45rem;
+  height: 20rem;
+  position: relative;
+  bottom: 0.5rem;
+  display: none;
+}
